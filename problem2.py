@@ -1,7 +1,7 @@
 import json
 
 received_data=''#assuimg this variable will hold all datas
-
+received_data=json.load(received_data)
 over_weight_count=0
 for each in received_data:
     each=json.load(each)
