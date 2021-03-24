@@ -2,6 +2,7 @@ import json
 import csv
 
 received_data=''#assuimg this variable will hold all datas
+received_data=json.load(received_data)
 
 #Write the header of csv result file
 with open('result.csv','w', newline='') as csvfile:
